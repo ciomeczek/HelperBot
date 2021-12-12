@@ -50,3 +50,5 @@ DOCUMENTATION = "https://docs.google.com/document/d/1jDGHhu1_2GO7maR9NCFdLR155Dn
 HELP = "Unknown command. Type \"help\" command for a list of commands."
 
 INVALID_FLAGS = "Invalid flags. Type \"help\" command for a list of commands."
+
+MISSING_FLAGS = "Missing required flags. Type \"help\" command for a list of commands."
