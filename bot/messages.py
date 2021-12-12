@@ -2,7 +2,7 @@
 
 MAN = """
 **SYNTAX**:
-    helper [COMMAND] [FLAGS]
+    helper [COMMAND] [FLAGS] [FLAG ARGUMENT]
 
 **COMMANDS**:
     help:
@@ -17,6 +17,28 @@ MAN = """
                 
     documentation:
         writes documentation link
+        
+    guildid:
+        writes guild id
+        
+    channelid:
+        writes channel id
+        
+    anonymous:
+        sends message received from private message to channel
+    
+         **REQUIRED FLAGS:**
+            -c, --channel
+                specifies channel id
+                
+            -C, --content
+                specifies content of message
+                
+            -u, --user (optional)
+                specifies what user should helper tag
+                
+        example:
+            helper anonymous -c 1234567890 -C Hello World -u 1234567890
 """
 
 GITHUB = "https://github.com/SquareScreenStudio"
